@@ -1,3 +1,3 @@
 # MessagePreview
 
-A discord.js bot that send a preview for a linked message!
+A discord.js bot that sends a preview for a linked message!
