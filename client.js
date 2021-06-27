@@ -9,9 +9,9 @@ module.exports = class MessagePreview extends Client {
     }
     start() {
         this.login(process.env.TOKEN)
-        this.#registerEvnets()
+        this.#registerEvents()
     }
-    #registerEvnets = () => {
+    #registerEvents = () => {
         fs.readdir("./events/", (err, files) => {
             if (err) return console.error(err);
             files.forEach((file) => {
