@@ -20,6 +20,6 @@ module.exports = class MessagePreview extends Client {
                 let eventName = file.split(".")[0];
                 this.on(eventName, event.bind(null, this));
             });
-        });
+        })
     }
 }
